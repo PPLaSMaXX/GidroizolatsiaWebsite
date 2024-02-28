@@ -1,4 +1,7 @@
 ﻿from django.shortcuts import render
 
-def home(request):
-    return render(request, 'home.html', {'content':'こんいちは！'})
+def index(request):
+    return render(request, 'core/index.html', {'content':'こんいちは！'})
+
+def contacts(request):
+    return render(request, 'core/contacts.html')

@@ -48,9 +48,10 @@
     <Compile Include="GidroizolatsiaProject\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="core\templates\core\contacts.html" />
     <Content Include="core\templates\core\index.html" />
-    <Content Include="core\templates\home.html" />
     <Content Include="requirements.txt" />
+    <Content Include="static\site.css" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="core\" />
@@ -58,6 +59,7 @@
     <Folder Include="core\templates\" />
     <Folder Include="core\templates\core\" />
     <Folder Include="GidroizolatsiaProject\" />
+    <Folder Include="static\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
