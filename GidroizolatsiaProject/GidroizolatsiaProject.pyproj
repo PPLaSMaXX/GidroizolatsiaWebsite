@@ -51,7 +51,7 @@
     <Content Include="core\templates\core\contacts.html" />
     <Content Include="core\templates\core\index.html" />
     <Content Include="requirements.txt" />
-    <Content Include="static\site.css" />
+    <Content Include="static\style.css" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="core\" />

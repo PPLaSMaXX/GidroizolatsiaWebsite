@@ -1,9 +1,134 @@
-<html>
-<head><title></title></head>
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" />
+    <title>Гідроізоляція ІФ</title>
+</head>
 <body>
-
-    <a href="./contacts/">{{ content }}</a>
-
+    <header>
+        <div class="uppheader">
+            <div class="headb">
+                <button name="headerb">Про компанію</button>
+            </div>
+            <div class="phone">
+                <div class="smartphone"><img src="{% static 'smartphone.svg' %}" alt=""></div>
+                <a>+380685491076 +380682193905</a>
+            </div>
+            <div class="logo">
+                <img src="{% static 'лого.svg' %}" alt="">
+            </div>
+            <div class="like">
+                <div class="star">
+                    <img src="{% static 'star.svg' %}" alt="">
+                </div>
+                <div class="scales">
+                    <img src="{% static 'scales.svg' %}" alt="">
+                </div>
+                <div class="ShoppingCart">
+                    <img src="{% static 'ShoppingCart.svg' %}" alt="">
+                </div>
+            </div>
+            <div class="avuser">
+                <img src="{% static 'user.svg' %}" alt="">
+            </div>
+        </div>
+        <div class="underheader">
+            <div class="creator">
+                <a>CLEVER POLYMERS</a>
+                <a>Hygrostop</a>
+                <a>Isomat</a>
+                <a>Remmers</a>
+                <a>Mapei</a>
+                <img src="{% static 'search.svg' %}" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="categories">
+            <div class="category" id="category1">
+                <a>Добавки в бетон та розчин</a>
+            </div>
+            <div class="category" id="category2">
+                <a>Гідроіозоляція</a>
+            </div>
+            <div class="category" id="category3">
+                <a>Герметики, шнури та сілікони</a>
+            </div>
+            <div class="category" id="category4">
+                <a>Захист бетону та каменю</a>
+            </div>
+            <div class="category" id="category5">
+                <a>Клей для плитки і каменю</a>
+            </div>
+            <div class="category" id="category6">
+                <a>Грунтовки та праймер</a>
+            </div>
+        </div>
+        <div class="popular">
+            <div class="fonblock"><a>Популярні товари</a></div>
+            <div class="tovar">
+                <div class="product">
+                    <img src="#" alt="">
+                    <a></a>
+                </div>
+                <div class="product">
+                    <img src="#" alt="">
+                    <a></a>
+                </div>
+                <div class="product">
+                    <img src="#" alt="">
+                    <a></a>
+                </div>
+                <div class="product">
+                    <img src="#" alt="">
+                    <a></a>
+                </div>
+                <div class="product">
+                    <img src="#" alt="">
+                    <a></a>
+                </div>
+                <div class="product">
+                    <img src="#" alt="">
+                    <a></a>
+                </div>
+                <div class="product">
+                    <img src="#" alt="">
+                    <a></a>
+                </div>
+                <div class="product">
+                    <img src="#" alt="">
+                    <a></a>
+                </div>
+            </div>
+        </div>
+        <div class="recentlyviewed">
+            <div class="fonblock"><a>Недавно переглянуті</a></div>
+            <div class="tovar">
+                <div class="product">
+                    <img src="#" alt="">
+                    <a></a>
+                </div>
+                <div class="product">
+                    <img src="#" alt="">
+                    <a></a>
+                </div>
+                <div class="product">
+                    <img src="#" alt="">
+                    <a></a>
+                </div>
+                <div class="product">
+                    <img src="#" alt="">
+                    <a></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footerfon"><a>Copyright © 2024 Гідроізоляція ІФ</a></div>
+    </footer>
 </body>
 </html>
