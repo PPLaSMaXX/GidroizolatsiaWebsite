@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'styles/style.css' %}">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="{% static 'scripts/script.js' %}"></script>
     <title>Гідроізоляція ІФ</title>
 </head>
@@ -33,22 +34,18 @@
                     <img src="{% static 'images/user.svg' %}" alt="">
                 </div>
             </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <i class='bx bx-x' id="close-icon"></i>
+            </label>
+    
             <nav class="navbar">
-                <div class="navbar-container">
-                  <input type="checkbox" id="toggle-menu">
-                  <label for="toggle-menu" class="hamburger-lines">
-                    <span class="line line1"></span>
-                    <span class="line line2"></span>
-                    <span class="line line3"></span>
-                  </label>
-                  <ul class="menu-items">
-                    <li><a href="#">Про компанію</a></li>
-                    <li><a href="#">Обрані</a></li>
-                    <li><a href="#">Порівняти</a></li>
-                    <li><a href="#">Кошик</a></li>
-                    <li><a href="#">Аккаунт</a></li>
-                  </ul>
-                </div>
+                <a href="#" style="--i:0;">Про компанію</a>
+                <a href="#" style="--i:1;">Обрані</a>
+                <a href="#" style="--i:2;">Порівняти</a>
+                <a href="#" style="--i:3;">Кошик</a>
+                <a href="#" style="--i:4;">Аккаунт</a>
             </nav>
         </div>
         <div class="underheader">

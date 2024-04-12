@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'styles/categotrystyle.css' %}">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="{% static 'scripts/categoryscript.js' %}"></script>
+    <title>Категорії</title>
+</head>
+<body>
+    <header>
+        <div class="uppheader">
+            <div class="contactm">
+                <a class="headerb" href="#">Про компанію</a>
+                <img src="ProgectIMG/smartphone.svg" alt="">
+                <a class="callnumber">+380685491076 +380682193905</a>
+            </div>
+            <div class="logo">
+                <img src="ProgectIMG/лого.svg" alt="">
+            </div>
+            <div class="like">
+                <div class="star">
+                    <img src="ProgectIMG/star.svg" alt="">
+                </div>
+                <div class="scales">
+                    <img src="ProgectIMG/scales.svg" alt="">
+                </div>
+                <div class="ShoppingCart">
+                    <img src="ProgectIMG/ShoppingCart.svg" alt="">
+                </div>
+                <div class="avuser">
+                    <img src="ProgectIMG/user.svg" alt="">
+                </div>
+            </div>
+            <input type="checkbox" id="filter-check">
+            <label for="filter-check" class="filter-icons">
+                <i class='bx bx-filter-alt' id="menu-filter-icon"></i>
+                <i class='bx bxs-filter-alt' id="close-filter-icon"></i>
+            </label>
+    
+            <nav class="filter-navbar">
+                <div class="category" style="--i:0;">
+                    <div class="category-title">
+                        <h3 >Колір</h3>
+                        <div class="arrow">⮟</div>
+                    </div>
+                    <ul class="category-list" id="color">
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">                                
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>                            
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="category" style="--i:1;">
+                    <div class="category-title">
+                        <h3 >Розмір</h3>
+                        <div class="arrow">⮟</div>
+                    </div>
+                    <ul class="category-list" id="size">
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="category" style="--i:2;">
+                    <div class="category-title">
+                        <h3 >Виробник</h3>
+                        <div class="arrow">⮟</div>
+                    </div>
+                    <ul class="category-list" id="creators">
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <i class='bx bx-x' id="close-icon"></i>
+            </label>
+    
+            <nav class="navbar">
+                <a href="#" style="--i:0;">Про компанію</a>
+                <a href="#" style="--i:1;">Обрані</a>
+                <a href="#" style="--i:2;">Порівняти</a>
+                <a href="#" style="--i:3;">Кошик</a>
+                <a href="#" style="--i:4;">Аккаунт</a>
+            </nav>
+        </div>
+        <div class="underheader">
+            <div class="creator">
+                <input type="text" class="searchinput" placeholder="Введіть текст">
+                <button>Знайти</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="catalog-path">
+            <a href="#" link="">name</a>  &nbsp;&nbsp;/&nbsp;&nbsp;
+            <a class="path_lnk_group" href="#" link="">name</a>  &nbsp;&nbsp;/&nbsp;&nbsp;
+            <a class="path_lnk" href="#" link="">name</a>
+        </div>
+        <div class="categotymain">
+            <div class="tovar">
+                    <div class="product" data-id="" data-category="">
+                        <div class="border">
+                            <div class="filling">
+                                <img src="#" alt="" class="primage">
+                                <div class="description">
+                                    <a href="#" class="name">CL-CLEAN Кл-КЛИН 5кг</a>
+                                    <a href="#" class="price">1044 ₴</a>
+                                    <a href="#" class="presence">В наявності</a>
+                                </div>
+                                <div class="active">
+                                    <button class="buybutton">Купити</button>
+                                    <img src="ProgectIMG/star.svg" alt="">
+                                    <img src="ProgectIMG/scales.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product" data-id="" data-category="">
+                        <div class="border">
+                            <div class="filling">
+                                <img src="#" alt="" class="primage">
+                                <div class="description">
+                                    <a href="#" class="name">CL-CLEAN Кл-КЛИН 5кг</a>
+                                    <a href="#" class="price">1044 ₴</a>
+                                    <a href="#" class="presence">В наявності</a>
+                                </div>
+                                <div class="active">
+                                    <button class="buybutton">Купити</button>
+                                    <img src="ProgectIMG/star.svg" alt="">
+                                    <img src="ProgectIMG/scales.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product" data-id="" data-category="">
+                        <div class="border">
+                            <div class="filling">
+                                <img src="#" alt="" class="primage">
+                                <div class="description">
+                                    <a href="#" class="name">CL-CLEAN Кл-КЛИН 5кг</a>
+                                    <a href="#" class="price">1044 ₴</a>
+                                    <a href="#" class="presence">В наявності</a>
+                                </div>
+                                <div class="active">
+                                    <button class="buybutton">Купити</button>
+                                    <img src="ProgectIMG/star.svg" alt="">
+                                    <img src="ProgectIMG/scales.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product" data-id="" data-category="">
+                        <div class="border">
+                            <div class="filling">
+                                <img src="#" alt="" class="primage">
+                                <div class="description">
+                                    <a href="#" class="name">CL-CLEAN Кл-КЛИН 5кг</a>
+                                    <a href="#" class="price">1044 ₴</a>
+                                    <a href="#" class="presence">В наявності</a>
+                                </div>
+                                <div class="active">
+                                    <button class="buybutton">Купити</button>
+                                    <img src="ProgectIMG/star.svg" alt="">
+                                    <img src="ProgectIMG/scales.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product" data-id="" data-category="">
+                        <div class="border">
+                            <div class="filling">
+                                <img src="#" alt="" class="primage">
+                                <div class="description">
+                                    <a href="#" class="name">CL-CLEAN Кл-КЛИН 5кг</a>
+                                    <a href="#" class="price">1044 ₴</a>
+                                    <a href="#" class="presence">В наявності</a>
+                                </div>
+                                <div class="active">
+                                    <button class="buybutton">Купити</button>
+                                    <img src="ProgectIMG/star.svg" alt="">
+                                    <img src="ProgectIMG/scales.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product" data-id="" data-category="">
+                        <div class="border">
+                            <div class="filling">
+                                <img src="#" alt="" class="primage">
+                                <div class="description">
+                                    <a href="#" class="name">CL-CLEAN Кл-КЛИН 5кг</a>
+                                    <a href="#" class="price">1044 ₴</a>
+                                    <a href="#" class="presence">В наявності</a>
+                                </div>
+                                <div class="active">
+                                    <button class="buybutton">Купити</button>
+                                    <img src="ProgectIMG/star.svg" alt="">
+                                    <img src="ProgectIMG/scales.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product" data-id="" data-category="">
+                        <div class="border">
+                            <div class="filling">
+                                <img src="#" alt="" class="primage">
+                                <div class="description">
+                                    <a href="#" class="name">CL-CLEAN Кл-КЛИН 5кг</a>
+                                    <a href="#" class="price">1044 ₴</a>
+                                    <a href="#" class="presence">В наявності</a>
+                                </div>
+                                <div class="active">
+                                    <button class="buybutton">Купити</button>
+                                    <img src="ProgectIMG/star.svg" alt="">
+                                    <img src="ProgectIMG/scales.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product" data-id="" data-category="">
+                        <div class="border">
+                            <div class="filling">
+                                <img src="#" alt="" class="primage">
+                                <div class="description">
+                                    <a href="#" class="name">CL-CLEAN Кл-КЛИН 5кг</a>
+                                    <a href="#" class="price">1044 ₴</a>
+                                    <a href="#" class="presence">В наявності</a>
+                                </div>
+                                <div class="active">
+                                    <button class="buybutton">Купити</button>
+                                    <img src="ProgectIMG/star.svg" alt="">
+                                    <img src="ProgectIMG/scales.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product" data-id="" data-category="">
+                        <div class="border">
+                            <div class="filling">
+                                <img src="#" alt="" class="primage">
+                                <div class="description">
+                                    <a href="#" class="name">CL-CLEAN Кл-КЛИН 5кг</a>
+                                    <a href="#" class="price">1044 ₴</a>
+                                    <a href="#" class="presence">В наявності</a>
+                                </div>
+                                <div class="active">
+                                    <button class="buybutton">Купити</button>
+                                    <img src="ProgectIMG/star.svg" alt="">
+                                    <img src="ProgectIMG/scales.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product" data-id="" data-category="">
+                        <div class="border">
+                            <div class="filling">
+                                <img src="#" alt="" class="primage">
+                                <div class="description">
+                                    <a href="#" class="name">CL-CLEAN Кл-КЛИН 5кг</a>
+                                    <a href="#" class="price">1044 ₴</a>
+                                    <a href="#" class="presence">В наявності</a>
+                                </div>
+                                <div class="active">
+                                    <button class="buybutton">Купити</button>
+                                    <img src="ProgectIMG/star.svg" alt="">
+                                    <img src="ProgectIMG/scales.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product" data-id="" data-category="">
+                        <div class="border">
+                            <div class="filling">
+                                <img src="#" alt="" class="primage">
+                                <div class="description">
+                                    <a href="#" class="name">CL-CLEAN Кл-КЛИН 5кг</a>
+                                    <a href="#" class="price">1044 ₴</a>
+                                    <a href="#" class="presence">В наявності</a>
+                                </div>
+                                <div class="active">
+                                    <button class="buybutton">Купити</button>
+                                    <img src="ProgectIMG/star.svg" alt="">
+                                    <img src="ProgectIMG/scales.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product" data-id="" data-category="">
+                        <div class="border">
+                            <div class="filling">
+                                <img src="#" alt="" class="primage">
+                                <div class="description">
+                                    <a href="#" class="name">CL-CLEAN Кл-КЛИН 5кг</a>
+                                    <a href="#" class="price">1044 ₴</a>
+                                    <a href="#" class="presence">В наявності</a>
+                                </div>
+                                <div class="active">
+                                    <button class="buybutton">Купити</button>
+                                    <img src="ProgectIMG/star.svg" alt="">
+                                    <img src="ProgectIMG/scales.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="filter">
+                <div class="category">
+                    <div class="category-title">
+                        <h3 >Колір</h3>
+                        <div class="arrow">⮟</div>
+                    </div>
+                    <ul class="category-list" id="color">
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />namename</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">                                
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>                            
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="category">
+                    <div class="category-title">
+                        <h3 >Розмір</h3>
+                        <div class="arrow">⮟</div>
+                    </div>
+                    <ul class="category-list" id="size">
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="category">
+                    <div class="category-title">
+                        <h3 >Виробник</h3>
+                        <div class="arrow">⮟</div>
+                    </div>
+                    <ul class="category-list" id="creators">
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                        <li class="list-ekement">
+                            <label><input type="checkbox" name="" value="" id="" />name</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="contact">
+            <a><strong>Viber:</strong> +380682193905<br><strong>Telegram:</strong> +380685491076</a>
+        </div>
+        <div class="copyright">
+            <a><strong>Copyright © 2024 Гідроізоляція ІФ</strong></a>
+        </div>
+        <div class="address">
+            <a><strong>Адреса:</strong><br>Стуса 32/4 магазин 85</a>
+        </div>
+    </footer>
+</body>
