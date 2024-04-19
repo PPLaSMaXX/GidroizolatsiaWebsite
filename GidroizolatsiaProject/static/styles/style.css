@@ -260,37 +260,37 @@ main{
 #category1{
     background: 
     linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url(static/images/Additives.jpg) center/cover;;
+    url(../images/Additives.jpg) center/cover;;
 }
 
 #category2{
     background: 
     linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url(static/images/Waterproofing.jpg) center/cover;;
+    url(../images/Waterproofing.jpg) center/cover;;
 }
 
 #category3{
     background: 
     linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url(static/images/Sealants.jpg) center/cover;;
+    url(../images/Sealants.jpg) center/cover;;
 }
 
 #category4{
     background: 
     linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url(static/images/Protection.jpg) center/cover;;
+    url(../images/Protection.jpg) center/cover;;
 }
 
 #category5{
     background: 
     linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url(static/images/Adhesive.jpg) center/cover;;
+    url(../images/Adhesive.jpg) center/cover;;
 }
 
 #category6{
     background: 
     linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url(static/images/Primers.jpg) center/cover;;
+    url(../images/Primers.jpg) center/cover;;
 }
 
 @media screen and (max-width: 1100px) {
