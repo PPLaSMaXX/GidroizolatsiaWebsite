@@ -46,12 +46,37 @@
     <Compile Include="GidroizolatsiaProject\settings.py" />
     <Compile Include="GidroizolatsiaProject\urls.py" />
     <Compile Include="GidroizolatsiaProject\wsgi.py" />
+    <Compile Include="Users\admin.py" />
+    <Compile Include="Users\apps.py" />
+    <Compile Include="Users\migrations\__init__.py" />
+    <Compile Include="Users\models.py" />
+    <Compile Include="Users\tests.py" />
+    <Compile Include="Users\views.py" />
+    <Compile Include="Users\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="core\templates\core\contacts.html" />
     <Content Include="core\templates\core\index.html" />
+    <Content Include="db.sqlite3" />
     <Content Include="requirements.txt" />
-    <Content Include="static\style.css" />
+    <Content Include="static\images\Additives.jpg" />
+    <Content Include="static\images\Adhesive.jpg" />
+    <Content Include="static\images\Primers.jpg" />
+    <Content Include="static\images\Protection.jpg" />
+    <Content Include="static\images\scales.svg" />
+    <Content Include="static\images\Sealants.jpg" />
+    <Content Include="static\images\search.svg" />
+    <Content Include="static\images\ShoppingCart.svg" />
+    <Content Include="static\images\ShoppingCartMinus.svg" />
+    <Content Include="static\images\ShoppingCartPlus.svg" />
+    <Content Include="static\images\smartphone.svg" />
+    <Content Include="static\images\star.svg" />
+    <Content Include="static\images\user.svg" />
+    <Content Include="static\images\Waterproofing.jpg" />
+    <Content Include="static\images\лого.svg" />
+    <Content Include="static\scripts\script.js" />
+    <Content Include="static\styles\style.css" />
+    <Content Include="Users\templates\Users\index.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="core\" />
@@ -60,6 +85,13 @@
     <Folder Include="core\templates\core\" />
     <Folder Include="GidroizolatsiaProject\" />
     <Folder Include="static\" />
+    <Folder Include="static\images\" />
+    <Folder Include="static\scripts\" />
+    <Folder Include="static\styles\" />
+    <Folder Include="Users\" />
+    <Folder Include="Users\migrations\" />
+    <Folder Include="Users\templates\" />
+    <Folder Include="Users\templates\Users\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
