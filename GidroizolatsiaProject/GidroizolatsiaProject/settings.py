@@ -25,7 +25,7 @@ SECRET_KEY = '998d0951-66b4-45b5-9bb8-0520f58a58a4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['gidroizolatsia-if.store', 'localhost']
 
 INTERNAL_IPS = [
     '127.0.0.1',
